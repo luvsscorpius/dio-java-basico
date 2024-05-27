@@ -1,0 +1,22 @@
+{
+  "name": "dio-java-basico",
+  "version": "1.0.0",
+  "description": "Repositório para armazenar todo o conteúdo do curso de Java Básico.\r Alterando o conteúdo de um arquivo de forma local",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^23.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
